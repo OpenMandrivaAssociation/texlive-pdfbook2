@@ -1,6 +1,6 @@
 Name:		texlive-pdfbook2
 Version:	53521
-Release:	1
+Release:	2
 Summary:	Create booklets from PDF files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfbook2
