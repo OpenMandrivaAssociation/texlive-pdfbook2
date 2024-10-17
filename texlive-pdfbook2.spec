@@ -3,7 +3,7 @@ Version:	53521
 Release:	2
 Summary:	Create booklets from PDF files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfbook2
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdfbook2
 License:	gpl3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfbook2.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfbook2.doc.r%{version}.tar.xz
