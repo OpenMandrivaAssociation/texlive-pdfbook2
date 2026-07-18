@@ -1,5 +1,6 @@
 %global tl_name pdfbook2
 %global tl_revision 76924
+%global tl_bin_links pdfbook2:%{_texmfdistdir}/scripts/pdfbook2/pdfbook2
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(pdfbook2.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 This python program creates print-ready PDF files from some input PDF
